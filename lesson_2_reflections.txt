@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 It creates a repository, but without a commit. Also it says the files are untracked to begin with. You need to do an initial commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area allows you to add the files in that you want to commit. This seems like it's so that you don't have to track every single file, and only the ones you want to track.
