@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a repository, but without a commit. Also it says the files are untracked to begin with. You need to do an initial commit.

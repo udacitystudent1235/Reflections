@@ -1,0 +1,20 @@
+Viewing the diff allowed me to see what changed from one version to the next.
+The old version worked, so it came down to finding what changed in the new version.
+
+Having the entire history of a file allows you to flexibly change anything you want without having to worry about deleting it forever.
+If you know something was working in one version, you can compare it with the new version to try and spot what has changed.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Gooogle Docs does?
+Manually choosing ensures that the commits are logically related and isolated so that it's easy  to understand what each commit did, compared to the old one. This way it's easy to undo a change if needed, or make sure that nothing major has changed since the last change.
+
+Why do you think some version control systems, like Git, allow saving multpile files in one commit, while others, like Google Docs, treat each file separately?
+Google Docs probably treats each file separately so that it saves space and time. If the files are unrelated, then you don't need to track all of them everytime you commit one.
+Google Docs also has no way to know if the files are related.
+
+How can you use the commands git log and git diff to view the history of files?
+You can use git log to look at all of the previous commits.
+You can use git diff to take two previous versions and compare them against each other.
+
+How might using version control make you more confident to make changes that could break something?
+It makes you more confident, because you have a method of tracking down which changes cause a bug to appear by comparing the history.
+
